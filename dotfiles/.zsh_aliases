@@ -1,0 +1,5 @@
+# Include aliases
+
+alias ls='ls --color'
+alias c='clear'
+alias docker-compose='docker compose'
