@@ -21,10 +21,15 @@ task :setup_dotfiles do
   end
 end
 
-desk "Make Orbstack as a default Docker Desktop Alternative"
+desc "Setup SKHD as a hotkey daemon"
+task :setup_skhd do 
+  system("skhd --start-service")
+end
+
+desc "Make Orbstack as a default Docker Desktop Alternative"
 task :setup_docker_env do 
   system("docker context use orbstack")
 end
 
 desc "Full setup: Install apps and set up dotfiles"
-task :setup => [:install_apps, :setup_dotfiles, :setup_docker_env]
+task :setup => %i[install_apps setup_dotfiles setup_skhd setup_docker_env]

@@ -1,0 +1,5 @@
+# App shortcuts
+lalt - c : open -a 'Visual Studio Code'
+lalt - b : open -a 'Google Chrome'
+lalt - a : open -a 'Arc'
+lalt - s : open -a 'Slack'
