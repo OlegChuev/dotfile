@@ -7,6 +7,7 @@ brew "lazygit"
 
 brew "ghostty"
 brew "zsh"
+bre "starship"
 
 brew "visual-studio-code"
 brew "arc"
