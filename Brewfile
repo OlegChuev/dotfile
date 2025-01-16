@@ -25,13 +25,14 @@ brew "make"
 # MacOS tweaks
 brew "hiddenbar"
 brew "maccy"
+brew "blurred"
 
 # Messages
 brew "slack"
 brew "skype"
 brew "microsoft-teams"
 
-# Others 
+# Others
 brew "spotify"
 brew "bitwarden"
 brew "chatgpt"
